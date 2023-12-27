@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+  --bg-level-1: rgba(255, 255, 255, 0.05);
+  --bg-level-2: rgba(255, 255, 255, 0.07);
+  --bg-level-3: rgba(255, 255, 255, 0.08);
+  --bg-level-4: rgba(255, 255, 255, 0.09);
+  --bg-level-5: rgba(255, 255, 255, 0.011);
+  --primary-color: #ffcc80;
+  --primary-light: #fff3e0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  transition: all 0.2s ease;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  background-image: url('/img/bg.jpg');
+}
+
+.app,
+#root {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.app-content {
+  background-color: #121212;
+  width: 100%;
+  height: 90%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 8px;
+
+  padding: 16px;
+}
